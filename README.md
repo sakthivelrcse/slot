@@ -26,108 +26,133 @@ Execute the program using runserver command.
 ## PROGRAM
 
 ```
-<html>
-    <head>
-        <title>Slot Timetable</title>
-    </head>
-    <body>
-        <center>
-            <img src="/static/logo.png" height="100"width="540">
-        </center>
-        <br>
-        <table align="center" width="540">
-            <caption><b>SLOT TIMETABLE SAKTHIVEL R(212221040141)</b></caption>
-            <tr align="center">
-                <th bgcolor="yellow">Day/Time</th>
-                <th bgcolor="yellow">Monday</th>
-                <th bgcolor="yellow">Tuesday</th>
-                <th bgcolor="yellow">Wednesday</th>
-                <th bgcolor="yellow">Thursday</th>
-                <th bgcolor="yellow">Friday</th>
-            </tr>
-            <tr align="center">
-                <th bgcolor="green">8-10</th>
-                <td bgcolor="pink">FREE SLOCT</td>
-                <td bgcolor="pink">COMMUNICATIVE ENGLISH</td>
-                <td bgcolor="pink">PHYSICS FOR QUANTUM COMPUTATION</td>
-                <td bgcolor="pink">STATISTICS AND NUMERICAL METHODS</td>
-                <td bgcolor="pink">PROGRAMMING MICROCONTROLLER</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="green">10-12</th>
-                <td bgcolor="pink">PROGRAMMING MICROCONTROLLER</td>
-                <td bgcolor="pink">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="pink">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-                <td bgcolor="pink">FREE SLOT</td>
-                <td bgcolor="pink">STATISTICS AND NUMERICAL METHODS</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="green">1-3</th>
-                <td bgcolor="pink">COMMUNICATIVE ENGLISH</td>
-                <td bgcolor="pink">FREE SLOT</td>
-                <td bgcolor="pink">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="pink">PHYSICS FOR QUANTUM COMPUTATION</td>
-                <td bgcolor="pink">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="green">3-5</th>
-                <td bgcolor="pink">STATISTICS AND NUMERICAL METHODS</td>
-                <td bgcolor="pink">SOFT SKILLS</td>
-                <td bgcolor="pink">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="pink">PHYSICS FOR QUANTUM COMPUTATION</td>
-                <td bgcolor="pink">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-            </tr>
-        </table>
-        <br>
-        <table align="center" cellspacing="2" cellpadding="4" border="2">
-            <tr align="center">
-                <th>S.No.</th>
-                <th>Subject Code</th>
-                <th>Subject Name</th>
-            </tr> 
-            <tr>
-                <td align="center">1.</td>
-                <td align="center">19AI414</td>
-                <td>Fundamentals of Web Application Development (FWAD)</td>
-            </tr>
-            <tr>
-                <td align="center">2.</td>
-                <td align="center">19AI304</td>
-                <td>FUNDAMENTALS OF C PROGRAMMING (C PROGRAM)</td>
-            </tr>
-            <tr>
-                <td align="center">3.</td>
-                <td align="center">19EN101</td>
-                <td>COMMUNICATIVE ENGLISH(ENG)</td>
-            </tr>
-            <tr>
-                <td align="center">4.</td>
-                <td align="center">19CY205</td>
-                <td>PRINCIPLES OF CHEMISTRY IN ENGINEERING (CHE)</td>
-            </tr>
-            <tr>
-                <td align="center">5.</td>
-                <td align="center">19MA211</td>
-                <td>STATISTICS AND NUMERICAL METHODS (MAT)</td>
-            </tr>
-            <tr>
-                <td align="center">6.</td>
-                <td align="center">19PH214</td>
-                <td>PHYSICS FOR QUANTUM COMPUTATION(PHY)</td>
-            </tr>
-            <tr>
-                <td align="center">7.</td>
-                <td align="center">19EE309</td>
-                <td>PROGRAMMING MICROCONTROLLER(PM)</td>
-            <tr>
-        </table>
+<!DOCTYPE html>
+<head>
+    <title>SEC SLOT TIMETABLE</title>
+</head>
+<center>
+<img src="/static/logo.png" width='600'align="center">
+</center>
+<body>
+    <table BORDER='3' width='600'bgcolor='white' cellspacing='3' align="center">
+        <CAPTION align="above">SLOT TIMETABLE- SREEADHITHSANTHOSH A (212222223003)</CAPTION>
+        <tr>
+            <th align="center" bgcolor="blue">Day/Time</th>
+            <th align="center" bgcolor="blue">Monday</th>
+            <th align="center" bgcolor="blue">Tuesday</th>
+            <th align="center" bgcolor="blue">Wednesday</th>
+            <th align="center" bgcolor="blue">Thursday</th>
+            <th align="center" bgcolor="blue">Friday</th>
+            <th align="center" bgcolor="blue">Saturday</th>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="green">8-10</th>
+            <td align="center" bgcolor="yellow" colspan="2">Digital Electronics</td>
+            <td align="center" bgcolor="yellow">Fundamentals of Web Development</td>
+            <td align="center" bgcolor="yellow">Free slot</td>
+            <td align="center" bgcolor="yellow">Algebra and number theory</td>
+            <td align="center" bgcolor="yellow">Principles of Chemistry</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="green">10-12</th>
+            <td align="center" bgcolor="pink">Creative Skills</td>
+            <td align="center" bgcolor="pink">Fundamentals of Web Development</td>
+            <td align="center" bgcolor="pink">Free slot</td>
+            <td align="center" bgcolor="pink">Python Programming</td>
+            <td align="center" bgcolor="pink">Digital Electronics</td>
+            <td align="center" bgcolor="pink">Free slot</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="green">12-1</th>
+            <td align="center" bgcolor="rose" colspan="6">LUNCH</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="green">1-3</th>
+            <td align="center" bgcolor="lightpink">Fundamentals of Web Development</td>
+            <td align="center" bgcolor="lightpink">Principles of Chemistry</td>
+            <td align="center" bgcolor="lightpink">Python Programming</td>
+            <td align="center" bgcolor="lightpink">Algebra and number theory</td>
+            <td align="center" bgcolor="lightpink">Operating System</td>
+            <td align="center" bgcolor="lightpink">Free slot</td>
+        </tr>
+
+
+        <tr>
+            <th align="center" bgcolor="green">3-5</th>
+            <td align="center" bgcolor="purple">Operating System</td>
+            <td align="center" bgcolor="purple">Free Slot</td>
+            <td align="center" bgcolor="purple">Digital Electronics</td>
+            <td align="center" bgcolor="purple">Computer Networks</td>
+            <td align="center" bgcolor="purple" >Free slot</td>
+            <td align="center" bgcolor="purple" >Computer Networks</td>
+        </tr>
+    </table>
+
+    <table border="3" width="600" cellspacing="3" cellpaddling="3" align="center">
+
+        <tr>
+            <th align="center">S.NO</th>
+            <th align="center">SUBJECT CODE</th>
+            <th align="center">subject name</th>
+        </tr>
+
+        <tr>
+            <td align="center">1</td>
+            <td align="center">19AI414</td>
+            <td align="center">Fundamental of Web Application Development(FWAD)</td>
+        </tr>
+
+        <tr>
+            <td align="center">2</td>
+            <td align="center">19AI301</td>
+            <td align="center">Python Programming</td>
+        </tr>
+
+        <tr>
+            <td align="center">3</td>
+            <td align="center">19EY702</td>
+            <td align="center">Creative Skills</td>
+        </tr>
+
+        <tr>
+            <td align="center">4</td>
+            <td align="center">19AI521</td>
+            <td align="center">Computer Networks</td>
+        </tr>
+
+        <tr>
+            <td align="center">5</td>
+            <td align="center">19CY205</td>
+            <td align="center">Principles of Chemistry</td>
+        </tr>
+
+        <tr>
+            <td align="center">6</td>
+            <td align="center">19MA212</td>
+            <td align="center">Algebra and number theory</td>
+        </tr>
+        <tr>
+            <td align="center">6</td>
+            <td align="center">19EE404</td>
+            <td align="center">Digital Electronics</td>
+        </tr>
+        <tr>
+            <td align="center">6</td>
+            <td align="center">19CS405</td>
+            <td align="center">Operating System</td>
+        </tr>
     </body>
-</html>
+    </html>
 ```
 
 ## OUTPUT
 
-![alt text](image.png)
+![WhatsApp Image 2024-03-29 at 11 59 17 PM](https://github.com/sakthivelrcse/slot/assets/116993934/0ea4cce9-5c1c-4865-8fcd-f6d151f9d41a)
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
