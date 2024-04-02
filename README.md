@@ -28,106 +28,113 @@ Execute the program using runserver command.
 ```
 <html>
     <head>
-        <title>Slot Timetable</title>
+        <title>
+            MY SLOT
+        </title>
+        <link rel="stylesheet" href="mo.css">
     </head>
-    <body>
+    <body class="table">
         <center>
-            <img src="/static/logo.png" height="100"width="540">
+            <img src="logo.png" width="700px", height="100px"><br><br>
+            <h2 class="name" style="color: rgba(21, 90, 38, 0.902);"> TIME TABLE SAKTHIVEL (212221040141)</h2>
+            <table border="6" class="table1" style="width: 800; height: 250;">
+                <tr class="dt">
+                    <th class="mkmk">Day/Time</th>
+                    <th class="mkmk">Monday</th>
+                    <th class="mkmk">Tuesday</th>
+                    <th class="mkmk">Wednesday</th>
+                    <th class="mkmk">Thuresday</th>
+                    <th class="mkmk">Friday</th>
+                </tr>
+                <tr>
+                    <td class="dt">8-10</td>
+                    <td>FREE SLOT</td>
+                    <td class="fs">GRID AND CLOUD COMPUTING</td>
+                    <td>GRID AND CLOUD COMPUTING</td>
+                    <td class="fs">FREE SLOT</td>
+                    <td>FUNDAMENTAL OF WEB APPLICATION</td>
+                </tr>
+                <tr>
+                    <td class="dt">10-12</td>
+                    <td class="fs">OPERATING SYSTEM</td>
+                    <td>FUNDAMENTAL OF WEB APPLICATION</td>
+                    <td>FREE SLOT</td>
+                    <td>COMPILER DESIGN</td>
+                    <td>FREE SLOT</td>
+                </tr>
+                <tr>
+                    <td class="dt">12-01</td>
+                    <td colspan="5" style="text-align: center; color: rgb(181, 38, 13)">LUNCH BREAK</td>
+                </tr>
+                <tr>
+                    <td class="dt">01-03</td>
+                    <td>COMMUNICATION ENGLISH</td>
+                    <td>FREE SLOT</td>
+                    <td class="fs">OPERATING SYSTEM</td>
+                    <td>FREE SLOT</td>
+                    <td>COMPILER DESIGN</td>
+                </tr>
+                <tr>
+                    <td class="dt">03-05</td>
+                    <td class="fs">FREE SLOT</td>
+                    <td class="fs">PROBLEM SOLVING AND PYTHON</td>
+                    <td>FUNDAMENTAL OF WEB APPLICATION</td>
+                    <td class="fs">SOFT SKILLS</td>
+                    <td class="fs">FREE SLOT</td>
+                </tr>
+            </table>
+            <br> <br> 
+            <table border="6" class="table2" style="width: 800; height: 250;">
+                <tr>
+                    <th>S. No.</th>
+                    <th>Subject Code</th>
+                    <th>Subject Name</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>19AI414</td>
+                    <td><b>FUNDAMENTAL OF WEB APPLICATION</b></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>19CS301</td>
+                    <td><b>PROBLEM SOLVING PYTHON</b></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>19CS405</td>
+                    <td><b>OPERATING SYSTEM</b></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>19CS409</td>
+                    <td><b>COMPILER DESIGN</b></td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>19EN101</td>
+                    <td><b>COMMUNICATIVE ENGLISH</b></td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>19EY701</td>
+                    <td><b>SOFT SKILLS</b></td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>19IT406</td>
+                    <td><b>GRID AND CLOUD COMPUTING</b></td>
+                </tr>
+            </table>
         </center>
-        <br>
-        <table align="center" width="540">
-            <caption><b>SLOT TIMETABLE SAKTHIVEL R(212221040141)</b></caption>
-            <tr align="center">
-                <th bgcolor="yellow">Day/Time</th>
-                <th bgcolor="yellow">Monday</th>
-                <th bgcolor="yellow">Tuesday</th>
-                <th bgcolor="yellow">Wednesday</th>
-                <th bgcolor="yellow">Thursday</th>
-                <th bgcolor="yellow">Friday</th>
-            </tr>
-            <tr align="center">
-                <th bgcolor="green">8-10</th>
-                <td bgcolor="pink">FREE SLOCT</td>
-                <td bgcolor="pink">COMMUNICATIVE ENGLISH</td>
-                <td bgcolor="pink">PHYSICS FOR QUANTUM COMPUTATION</td>
-                <td bgcolor="pink">STATISTICS AND NUMERICAL METHODS</td>
-                <td bgcolor="pink">PROGRAMMING MICROCONTROLLER</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="green">10-12</th>
-                <td bgcolor="pink">PROGRAMMING MICROCONTROLLER</td>
-                <td bgcolor="pink">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="pink">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-                <td bgcolor="pink">FREE SLOT</td>
-                <td bgcolor="pink">STATISTICS AND NUMERICAL METHODS</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="green">1-3</th>
-                <td bgcolor="pink">COMMUNICATIVE ENGLISH</td>
-                <td bgcolor="pink">FREE SLOT</td>
-                <td bgcolor="pink">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="pink">PHYSICS FOR QUANTUM COMPUTATION</td>
-                <td bgcolor="pink">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-            </tr>
-            <tr align="centre">
-                <th bgcolor="green">3-5</th>
-                <td bgcolor="pink">STATISTICS AND NUMERICAL METHODS</td>
-                <td bgcolor="pink">SOFT SKILLS</td>
-                <td bgcolor="pink">FUNDAMENTALS OF WEB APPLICATION DEVLOPMENT</td>
-                <td bgcolor="pink">PHYSICS FOR QUANTUM COMPUTATION</td>
-                <td bgcolor="pink">PRINCIPLES OF CHEMISTRY IN ENGINEERING</td>
-            </tr>
-        </table>
-        <br>
-        <table align="center" cellspacing="2" cellpadding="4" border="2">
-            <tr align="center">
-                <th>S.No.</th>
-                <th>Subject Code</th>
-                <th>Subject Name</th>
-            </tr> 
-            <tr>
-                <td align="center">1.</td>
-                <td align="center">19AI414</td>
-                <td>Fundamentals of Web Application Development (FWAD)</td>
-            </tr>
-            <tr>
-                <td align="center">2.</td>
-                <td align="center">19AI304</td>
-                <td>FUNDAMENTALS OF C PROGRAMMING (C PROGRAM)</td>
-            </tr>
-            <tr>
-                <td align="center">3.</td>
-                <td align="center">19EN101</td>
-                <td>COMMUNICATIVE ENGLISH(ENG)</td>
-            </tr>
-            <tr>
-                <td align="center">4.</td>
-                <td align="center">19CY205</td>
-                <td>PRINCIPLES OF CHEMISTRY IN ENGINEERING (CHE)</td>
-            </tr>
-            <tr>
-                <td align="center">5.</td>
-                <td align="center">19MA211</td>
-                <td>STATISTICS AND NUMERICAL METHODS (MAT)</td>
-            </tr>
-            <tr>
-                <td align="center">6.</td>
-                <td align="center">19PH214</td>
-                <td>PHYSICS FOR QUANTUM COMPUTATION(PHY)</td>
-            </tr>
-            <tr>
-                <td align="center">7.</td>
-                <td align="center">19EE309</td>
-                <td>PROGRAMMING MICROCONTROLLER(PM)</td>
-            <tr>
-        </table>
     </body>
 </html>
 ```
 
 ## OUTPUT
 
-![image](https://github.com/sakthivelrcse/slot/assets/116993934/a1159e43-1641-4e44-801e-7c66c4c1572b)
+![TIME TABLE SAKTHIVEL R (212221040141)](https://github.com/sakthivelrcse/slot/assets/116993934/71a3107e-7b19-4a14-a388-c1c7251e87cd)
+
 
 
 ## RESULT
